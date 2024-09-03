@@ -27,7 +27,7 @@
 
 /** Exercice 4 : Combinaison de constantes et variables
  * 
- *  Objectif : Déclarer une variable nommée PREFIXE avec la valeur 'Bonjour' et trois autres variables pour stocker les mots 'tout','le','monde'. Utiliser la constante et les variables pour afficher la phrase complète 'Bonjour tout le monde'.
+ *  Objectif : Déclarer une constante nommée PREFIXE avec la valeur 'Bonjour' et trois variables pour stocker les mots 'tout','le','monde'. Utiliser la constante et les variables pour afficher la phrase complète 'Bonjour tout le monde'.
  */
 
 /** Exercice 5 : Substitution de variables
