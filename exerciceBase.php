@@ -1,4 +1,8 @@
 <?php
+    require 'partials/head.php';
+?>
+
+<?php
     // Exercice 1
     echo '<p>Hello World, Bienvenue sur mon premier script PHP</p>';
 ?>
@@ -87,7 +91,7 @@
     <h1>Bienvenue sur ma page</h1>
     <h2>Voici un exemple de date affichée avec PHP</h2>
     <p>
-        Aujourd'hui, nous sommes le <? echo date('d/m/Y'); ?>.
+        Aujourd'hui, nous sommes le <?php echo date("d/m/Y"); ?>.
     </p>
 </body>
 </html>
@@ -96,4 +100,8 @@
     //Exercice 10
     $message = 'en formation';
     echo '<h1>Abdel est ' .$message . '</h1>'
+?>
+
+<?php
+    require 'partials/footer.php';
 ?>
