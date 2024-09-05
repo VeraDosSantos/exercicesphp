@@ -116,9 +116,9 @@ foreach ($etudiants as $etudiant) {
     $prenom = ["Julien Vincent","Marina", "Americo Fernando", "Maria de Fatima"];
     $nom = ["De Freitas", "Velhote", "Morreira", "Ferreira"];
 
-    $nomsCompletsTab = array_map(function ($prenom, $nom) {
-        return "$prenom $nom";
-    }, $prenomsTab, $nomsTab);
+    $nomsCompletsTab = array_map(function ($myPrenom, $myNom) {
+        return "$myPrenom $myNom";
+    }, $prenom, $nom);
     
     foreach ($nomsCompletsTab as $nomComplet) {
         echo "<p> $nomComplet </p>";
