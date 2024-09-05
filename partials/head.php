@@ -33,6 +33,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/exerciceCondition.php">Exercice Conditions</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/exerciceTableau.php">Exercice Tableau</a>
+        </li>
       </ul>
     </div>
   </div>
