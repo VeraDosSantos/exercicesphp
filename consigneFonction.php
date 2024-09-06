@@ -1,5 +1,5 @@
 <?php
- //Créer un fichier exerciceTableau.php
+ //Créer un fichier exerciceFonction.php
  //Ajouter à la nav votre nouveau fichier
  //Ajouter à votre fichier head et footer
  
